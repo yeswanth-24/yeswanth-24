@@ -17,7 +17,7 @@ As **CTO at Entriya** I architected a 12-layer autonomous drone software stack �
 EKF state estimation, MPC control and consensus algorithms in an intent-to-command autonomy pipeline.
 In drone autonomy a wrong assumption doesn't produce a bad metric, it produces a crash.
 
-**Research:** I've since extended that work into a **14-layer agentic autonomy architecture** for drone swarms — seven belief layers, seven decision layers and a micro-kernel command executor joined by a typed message bus — with formal stability and safety analysis validated in PX4 SITL / Gazebo / ROS 2 simulation. Paper under review. That standard
+**Research:** I've since extended that work into a **14-layer agentic autonomy architecture** for drone swarms — seven belief layers, seven decision layers and a micro-kernel command executor joined by a typed message bus — with formal stability and safety analysis validated in PX4 SITL / Gazebo / ROS 2 simulation. I am writing it up as a three-paper series; the first, on stable swarm resizing under actuation delay, is ready for submission. That standard
 carries into everything below.
 
 **How I build:** the hard part — geometry, state machines, classifiers — stays pure and unit-tested
